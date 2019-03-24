@@ -14,7 +14,7 @@ class EmailParser
     array = []
 
     array = emails.split(/[\s,]/)
-    
+
     array.flatten.uniq
   end
 end
